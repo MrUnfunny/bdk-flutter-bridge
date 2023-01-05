@@ -10,5 +10,5 @@ crate-type = ["cdylib", "staticlib"]
 
 [dependencies]
 anyhow = "1"
-bdk = { version = "0.22", features = ["all-keys", "use-esplora-ureq", "sqlite-bundled"] }
+bdk = { version = "0.26", features = ["all-keys", "use-esplora-ureq", "sqlite-bundled"] }
 flutter_rust_bridge = "1"
